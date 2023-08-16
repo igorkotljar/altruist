@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+    <parameter name="baseUrl" value="https://google.com"/>
+    <test name="Google Stocks">
+        <classes>
+            <class name="igor.qa.tests.Google"/>
+        </classes>
+    </test>
+</suite>
