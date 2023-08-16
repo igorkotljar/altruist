@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="MyTestSuite">
+<suite name="Smoke test suite">
     <parameter name="baseUrl" value="https://google.com"/>
-    <test name="Google Stocks">
+    <test name="Google Stocks" description="Comparing expectedList to actualList as well as asserting landing URL">
         <classes>
             <class name="igor.qa.tests.Google"/>
         </classes>
